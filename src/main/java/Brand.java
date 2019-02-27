@@ -1,10 +1,15 @@
-public class Samsung {
+
+//pojo class
+public class Brand {
     private String id;
+    private String brand;
     private String model;
     private String ram;
     private String hdd;
 
-    public Samsung(String id, String model, String ram, String hdd) {
+
+
+    public Brand(String id, String model, String ram, String hdd) {
         this.id = id;
         this.model = model;
         this.ram = ram;
@@ -21,6 +26,14 @@ public class Samsung {
 
     public String getModel() {
         return model;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
     public void setModel(String model) {

@@ -1,5 +1,6 @@
 import com.google.gson.JsonElement;
 
+//customize converting to and from JSON using gson
 public class StandardResponse {
     private StatusResponse status;
     private String message;

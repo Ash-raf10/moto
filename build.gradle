@@ -15,8 +15,14 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile "com.sparkjava:spark-core:2.7.2"
     // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    //for using JSON
     compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
 
+    // https://mvnrepository.com/artifact/com.google.guava/guava
+    //for using Multimap
+    compile group: 'com.google.guava', name: 'guava', version: '27.0-jre'
+
+    //for logging/debugging
     compile "org.slf4j:slf4j-api:1.6.1"
     compile "org.slf4j:slf4j-simple:1.6.1"
 
